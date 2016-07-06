@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.alura.agenda.FormularioActivity">
+
+    <item android:title="Ok"
+        android:icon="@drawable/ic_confirmar"
+        app:showAsAction="always"
+        android:id="@+id/menu_formulario_ok"/>
+
+</menu>

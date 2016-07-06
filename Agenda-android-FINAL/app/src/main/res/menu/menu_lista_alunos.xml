@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ListaAlunosActivity">
+    <item
+        android:id="@+id/menu_enviar_notas"
+        android:title="Enviar notas"
+        android:icon="@drawable/ic_enviar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_baixar_provas"
+        android:title="Baixar provas"
+        android:icon="@drawable/ic_receber"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_mapa"
+        android:title="Visualizar no mapa"
+        android:icon="@drawable/ic_mapa"
+        app:showAsAction="always"/>
+</menu>
